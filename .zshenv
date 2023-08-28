@@ -23,10 +23,7 @@ alias to_tGuide="nvim ~/tGuide.md"
 alias to_zshenv="nvim ~/.zshenv"
 alias to_nvim="cd ~/.config/nvim"
 alias v="nvim ."
-alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/ && \
-  git add ~/Projects/dotfiles/ && \
-  git commit -m 'auto update env' && \
-  git push origin"
+alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/"
 
 function explore_dir () {
   bash /Users/cory/projects/cli-tools/jsonifyDir/jsonifyDir.sh "$(pwd)" \
