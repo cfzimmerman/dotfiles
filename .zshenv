@@ -27,13 +27,10 @@ alias to_120="cd ~/Projects/school/F23-CS120"
 alias v="nvim ."
 alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/"
 alias ga="git add ."
+alias gp="git push origin"
 
 function gc () {
   git commit -m "$1"
-}
-
-function gp () {
-  git push origin
 }
 
 function gg () {
