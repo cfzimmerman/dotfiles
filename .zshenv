@@ -22,8 +22,23 @@ alias to_lc="cd ~/Projects/dsa/lc"
 alias to_tGuide="nvim ~/tGuide.md"
 alias to_zshenv="nvim ~/.zshenv"
 alias to_nvim="cd ~/.config/nvim"
+alias to_61="cd ~/Projects/school/F23-CS61"
+alias to_120="cd ~/Projects/school/F23-CS120"
 alias v="nvim ."
 alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/"
+alias ga="git add ."
+
+function gc () {
+  git commit -m "$1"
+}
+
+function gp () {
+  git push origin
+}
+
+function gg () {
+  ga && (gc $1) && gp
+}
 
 function explore_dir () {
   bash /Users/cory/projects/cli-tools/jsonifyDir/jsonifyDir.sh "$(pwd)" \
