@@ -24,6 +24,7 @@ alias to_zshenv="nvim ~/.zshenv"
 alias to_nvim="cd ~/.config/nvim"
 alias to_61="cd ~/Projects/school/F23-CS61"
 alias to_120="cd ~/Projects/school/F23-CS120"
+alias to_ger="cd ~/Projects/school/F23-G20A"
 alias v="nvim ."
 alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/"
 alias ga="git add ."
@@ -44,4 +45,8 @@ function explore_dir () {
 
 function rmt () {
   mv -fv "$1" ~/.Trash/ ;
+}
+
+function json () {
+  echo "$1" | python -m json.tool ;
 }
