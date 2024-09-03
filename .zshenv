@@ -24,12 +24,14 @@ alias to_tGuide="nvim ~/tGuide.md"
 alias to_zshenv="nvim ~/.zshenv"
 alias to_nvim="cd ~/.config/nvim"
 alias to_brew="cd /opt/homebrew/etc"
-# alias to_145="cd ~/Projects/school/S24-CS145"
+alias to_165="cd ~/Projects/school/F24-CS165"
 alias to_sandbox="cd ~/Projects/rs-sandbox"
 alias v="nvim ."
 alias backup_env="cp ~/.zshenv ~/Projects/dotfiles/"
 alias ga="git add ."
 alias gp="git push origin"
+
+alias dev="bash /Users/cory/projects/containers/run.sh"
 
 function gc () {
   git commit -m "$1"
@@ -65,3 +67,5 @@ function rmt () {
 function json () {
   echo "$1" | python -m json.tool ;
 }
+
+
