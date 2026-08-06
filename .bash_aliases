@@ -5,9 +5,9 @@ export PATH="$PATH:/opt/nvim/"
 export LIBVIRT_DEFAULT_URI=qemu:///system
 
 # Navigation
-alias tconf="cd ~/dev/dotfiles"
+alias tconf="cd ~/dev/dotfiles && nvim ."
 alias tvim="cd ~/.config/nvim"
-alias tox="cd ~/dev/oxide"
+alias tdev="cd ~/dev"
 alias tclu="cd ~/dev/clu"
 
 # Shortcuts
