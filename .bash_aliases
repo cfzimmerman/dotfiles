@@ -2,7 +2,10 @@ set -o ignoreeof # immortal tmux
 
 # Env
 export PATH="$PATH:/opt/nvim/"
+export PATH="${PATH}:/opt/gcc-14/bin" # Helios tools
 export LIBVIRT_DEFAULT_URI=qemu:///system
+export SDE=/opt/oxide/tofino_sde
+
 
 # Navigation
 alias tconf="cd ~/dev/dotfiles && nvim ."
