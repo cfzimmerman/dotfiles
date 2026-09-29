@@ -22,6 +22,7 @@ function gc() {
 }
 
 alias gp="git push origin"
+alias gpforce="git push origin --force-with-lease"
 
 function gg() {
     git add . && gc "$1" && gp
