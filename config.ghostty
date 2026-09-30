@@ -1,5 +1,5 @@
 keybind = f11=toggle_fullscreen
-command = tmux new-session -A -s main
+# command = tmux new-session -A -s main
 theme = /home/cory/.config/ghostty/themes/ghostty.theme
 font-size = 14
 
