@@ -15,6 +15,7 @@ alias tclu="cd ~/dev/clu"
 
 # Shortcuts
 alias v="nvim ."
+alias caffeinate='systemd-inhibit --what="sleep:shutdown:idle" --who="caffeinate" --why="Staying busy" sleep infinity'
 
 # Git aliases
 function gc() {
