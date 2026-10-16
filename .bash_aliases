@@ -12,6 +12,8 @@ alias tconf="cd ~/dev/dotfiles && nvim ."
 alias tvim="cd ~/.config/nvim"
 alias tdev="cd ~/dev"
 alias tclu="cd ~/dev/clu"
+alias tden="cd ~/dev/dendrite"
+alias tden2="cd ~/dev/worktree/dendrite2"
 
 # Shortcuts
 alias v="nvim ."
