@@ -17,7 +17,7 @@ alias tden2="cd ~/dev/worktree/dendrite2"
 
 # Shortcuts
 alias v="nvim ."
-alias caffeinate='systemd-inhibit --what="sleep:shutdown:idle" --who="caffeinate" --why="Staying busy" sleep infinity'
+alias caffeinate='systemd-inhibit --what="sleep:shutdown:idle:handle-lid-switch" --who="caffeinate" --why="Staying busy" sleep infinity'
 
 # Git aliases
 function gc() {
